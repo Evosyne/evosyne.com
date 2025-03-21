@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Evosyne.com - Empowering your business with innovative IT solutions.">
+  <title>Evosyne.com | Innovate. Integrate. Elevate.</title>
+  
+  <!-- Google Fonts (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS (Inline for simplicity, but you can use an external style.css file) -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #1e88e5;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #fff;
+    }
+    .hero h1 {
+      font-size: 48px;
+      color: #1e88e5;
+    }
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #1e88e5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    .section {
+      padding: 40px 20px;
+      background: #fff;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #1e88e5;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .service-card {
+      background: #f9f9f9;
+      padding: 20px;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #1e88e5;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Evosyne.com</h1>
+    <p>Innovate. Integrate. Elevate.</p>
+    
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Welcome to Evosyne</h1>
+    <p>Empowering your business with innovative IT solutions and services.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>IT Solutions</h3>
+        <p>Providing end-to-end IT solutions customized to your business needs.</p>
+      </div>
+      <div class="service-card">
+        <h3>Hardware Sales</h3>
+        <p>High-quality computers, laptops, and accessories for enterprises and individuals.</p>
+      </div>
+      <div class="service-card">
+        <h3>GeM Portal Support</h3>
+        <p>Expert assistance in GeM portal registrations and order fulfillment across India.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>About Evosyne</h2>
+    <p>Evosyne is committed to delivering cutting-edge IT products and services. We specialize in laptops, computers, accessories, and are proud sellers on the GeM Portal with a nationwide network.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to collaborate or inquire about our services.</p>
+    <p>Email: contact@evosyne.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <a href="mailto:contact@evosyne.com" class="btn">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Evosyne.com | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
